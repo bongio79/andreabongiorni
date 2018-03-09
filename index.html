@@ -10,26 +10,43 @@
   <title>Andrea Bongiorni</title>
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-default justify-content-between">
-    <a class="navbar-brand" href="#">Andrea Bongiorni</br>Servizi per l'editoria cartacea e digitale</a>
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#sezione1">Grafica editoriale e produzione ebook</a>
-        <a class="nav-item nav-link" href="#sezione2">Formazione e corsi</a>
-        <a class="nav-item nav-link" href="mailto:andrea.bongiorni@gmail.com">Contatti</a>
-      </div>
-    </nav>
+  <!-- Bootstrap navbar with collapsing menu and toggler button -->
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <a href="#home" class="navbar-brand w-50 mr-auto">Andrea Bongiorni<br/>Servizi per l'editoria cartacea e digitale</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+      <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#sezione1">Grafica editoriale</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sezione2">Formazione</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sezione3">Tariffe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:info@andreabongiorni.it">Contatti</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <main>
+    <!-- Bootstrap jumbotron -->
     <div class="jumbotron container-fluid" id="home">
-      <h1 class="display-4">Impagino libri e altri prodotti per la stampa.</br> Sviluppo e produco ebook.</br> E mi piace insegnare a farlo.</h1>
+      <h1 class="display-3">Impagino <mark class="dp">libri</mark> e altri prodotti per la stampa.</br> Sviluppo e produco <mark class="dp">ebook</mark>.</br> E mi piace <mark class="edu">insegnare</mark> a farlo.</h1>
       <hr class="my-4">
       <div class="buttons">
         <a class="button dp" href="#sezione1">Grafica editoriale e ebook design</a>
         <a class="button edu" href="#sezione2">Formazione e corsi</a>
       </div>
     </div>
+    <!-- First main section. Two columns design with Flexbox -->
     <section class="two-columns dp" id="sezione1">
       <div class="left">
-        <h1>Grafica editoriale<br/> e ebook design</h1>
+        <h1>Grafica editoriale e ebook design</h1>
       </div>
       <div class="right">
         <p><strong>Impagino</strong> libri, cataloghi, dépliant, brochure, volantini e altri prodotti editoriali per la stampa.</br></br>Realizzo <strong>ebook in formato ePub</strong> a partire da impaginati inDesign o da contenuti pensati per una fruizione esclusivamente digitale.</br></br>Fornisco ai <a href="#sezione4">miei clienti</a> <strong>pdf per la stampa di alta qualità</strong> e file <strong>ePub ottimizzati</strong> e conformi agli standard della pubblicazione digitale professionale.</br></br>Grazie all'esperienza maturata nella comunicazione editoriale, all'occorrenza posso occuparmi anche della <strong>redazione</strong> dei contenuti e del <strong>coordinamento</strong> dei progetti che seguo.
@@ -39,6 +56,7 @@
           </div>
         </div>
       </section>
+      <!-- Second main section -->
       <section class="two-columns edu" id="sezione2">
         <div class="left">
           <h1>Formazione e corsi</h1>
@@ -47,6 +65,7 @@
           <p>Insegno <strong>Grafica Editoriale</strong> e <strong>Ebook Design</strong> al <a href="http://www.mastereditoria.com/">Master in Editoria: Progettazione e Management</a> dell'Università degli Studi di Verona e <strong>Ebook Design</strong> al <a href="http://www.fondazionemondadori.it/cms/formazione/869/master-in-editoria-edizione-2018">Master in Editoria</a> dell'Università degli Studi di Milano. </br></br>Organizzo <strong>corsi intensivi</strong> di aggiornamento professionale per privati e aziende: il prossimo, durante il quale insegnerò a <strong>realizzare e editare un ebook in formato ePub</strong>, si terrà il prossimo <strong>7 aprile a Milano</strong>, presso gli spazi di <a href="http://www.slam.srl/">SLAM</a>.<br/>Ti interessa? <a href="mailto:info@andreabongiorni.it">Scrivimi!</a></p>
         </div>
       </section>
+      <!-- Third main section -->
       <section class="two-columns tariffe" id="sezione3">
         <div class="left">
           <h1>Le mie tariffe</h1>
@@ -67,7 +86,7 @@
             <li>Inserimento di correzioni per eventuali ristampe dei libri</li>
           </ul>
           <p>Nel caso di lavorazioni particolari o più articolate, la tariffa sarà concordata di volta in volta tenendo conto della complessità del progetto.</p>
-          <h2>Produzione ebook</h2>
+          <h2 id="ebook">Produzione ebook</h2>
           <ul>
             <li>Conversione in ePub di impaginati inDesign realizzati internamente: a partire da <strong>€100</strong></li>
             <li>Esportazione file pdf ottimizzato per i dispositivi digitali: <strong>€30,00</strong></li>
@@ -76,6 +95,7 @@
           <p>Tutte le tariffe sopra indicate sono da intendersi <strong>IVA esclusa</strong>.</p>
         </div>
       </section>
+      <!-- Third main section with text and wrap images on the right -->
       <section class="two-columns clienti" id="sezione4">
         <div class="left">
           <h1>I miei clienti</h1>
@@ -94,10 +114,12 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
       <hr class="my-4">
       <p>Macchia Nera di Andrea Bongiorni - Via Ettore Troilo 10 - 20136 Milano - P.IVA 06345080961</p>
     </footer>
+    <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
