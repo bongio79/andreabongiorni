@@ -11,6 +11,7 @@ strong {
 /* Navbar */
 .navbar {
   padding: 1rem 3rem;
+  height: 5rem;
 }
 
 .navbar-brand {
@@ -64,6 +65,10 @@ strong {
 }
 
 /* Main content */
+main {
+  position: relative;
+  top: 5rem;
+}
 .dp {
   background-color: #7ECEFD;
 }
@@ -85,7 +90,7 @@ strong {
   display: flex;
   justify-content: space-between;
   padding: 5rem 3rem;
-  min-height: 50rem;
+  min-height: 45rem;
 }
 
 .two-columns p {
@@ -164,9 +169,13 @@ footer {
 
 /* Media queries */
 @media only screen and (max-width: 991px) {
-
   .jumbotron {
     padding: 5rem;
+  }
+  .display-3 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
   }
   .buttons {
     flex-direction: column;
