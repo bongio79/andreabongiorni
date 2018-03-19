@@ -11,7 +11,6 @@ strong {
 /* Navbar */
 .navbar {
   padding: 1rem 3rem;
-  height: 5rem;
 }
 
 .navbar-brand {
@@ -74,22 +73,22 @@ main {
 }
 
 .edu {
-  background-color: #FFFDE7;
+  background-color: #FFFAC1;
 }
 
 .tariffe {
-  background-color: #FF3F3F;
+  background-color: #013CC4;
   color: white;
 }
 
 .contatti {
-  background-color: #FF3F3F;
+  background-color: #007bff;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
-  padding: 5rem 3rem;
+  padding: 6rem 3rem;
   min-height: 45rem;
 }
 
@@ -148,12 +147,12 @@ ul {
 }
 
 img {
-  height: 6rem;
-  margin: 2rem;
+  height: 5rem;
+  margin: 1.5rem;
 }
 
 .orizz {
-  width: 20rem;
+  width: 15rem;
   height: auto;
 }
 
@@ -204,5 +203,13 @@ footer {
   }
   .left h1 {
     margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 726px) {
+  .display-3 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
   }
 }
