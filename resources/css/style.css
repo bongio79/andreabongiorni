@@ -213,3 +213,18 @@ footer {
     line-height: 1.5;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: 4rem;
+    margin: 1rem;
+  }
+
+  .orizz {
+    width: 10rem;
+  }
+
+  .right .buttons {
+    flex-direction: column;
+  }
+}
