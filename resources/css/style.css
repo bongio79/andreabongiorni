@@ -208,14 +208,14 @@ footer {
   }
   .left h1 {
     margin-bottom: 4rem;
+    font-weight: 700;
   }
 }
 
 @media only screen and (max-width: 726px) {
   .display-3 {
-    font-weight: 700;
     font-size: 3rem;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 }
 
@@ -230,4 +230,25 @@ footer {
   .right .buttons {
     flex-direction: column;
   }
+}
+
+@media only screen and (max-width: 524px) {
+  .display-3 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  .left h1 {
+      font-size: 1.5rem;
+  }
+  .right h2 {
+      font-size: 1.4rem;
+  }
+  .two-columns p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  ul {
+    font-size: 1.2rem;
+  }
+
 }
