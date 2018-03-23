@@ -10,7 +10,7 @@ strong {
 
 /* Navbar */
 .navbar {
-  padding: 1rem 3rem;
+  padding: 0.7rem 3rem;
 }
 
 .navbar-brand {
@@ -104,7 +104,7 @@ main {
 }
 
 .right .buttons {
-  margin: 0;
+  margin-top: 4rem;
 }
 
 .right .button {
@@ -153,7 +153,7 @@ ul {
 }
 
 img {
-  height: 5rem;
+  max-height: 5rem;
   margin: 1.5rem;
 }
 
@@ -170,6 +170,18 @@ footer {
   color: #333;
   position: relative;
   top: 5rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social img {
+  height: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Media queries */
@@ -212,6 +224,15 @@ footer {
   }
 }
 
+@media only screen and (max-width: 764px) {
+  .info {
+    flex-direction: column;
+  }
+  .social {
+    margin-top: 1rem;
+  }
+}
+
 @media only screen and (max-width: 726px) {
   .display-3 {
     font-size: 3rem;
@@ -221,7 +242,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   img {
-    height: 4rem;
+    max-height: 4rem;
     margin: 1rem;
   }
   .orizz {
@@ -234,7 +255,7 @@ footer {
 
 @media only screen and (max-width: 524px) {
   .navbar {
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2rem;
   }
   .navbar-brand {
     font-size: 0.8rem;
@@ -245,7 +266,7 @@ footer {
     padding: 0;
   }
   .jumbotron {
-    padding: 3rem;
+    padding: 2rem;
   }
   .display-3 {
     font-size: 2rem;
@@ -258,7 +279,7 @@ footer {
       font-size: 1.4rem;
   }
   .two-columns {
-    padding: 3rem;
+    padding: 3rem 2rem;
   }
   .two-columns p {
     font-size: 1.2rem;
@@ -281,5 +302,4 @@ footer {
   .orizz {
     width: 8rem;
   }
-
 }
