@@ -19,7 +19,6 @@ strong {
 
 .nav-link {
   font-size: 1rem;
-  color: white;
 }
 
 /* Jumbotron */
@@ -69,6 +68,7 @@ main {
   position: relative;
   top: 5rem;
 }
+
 .dp {
   background-color: #7ECEFD;
 }
@@ -189,35 +189,43 @@ footer {
   .jumbotron {
     padding: 5rem;
   }
+
   .display-3 {
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 1.5;
   }
+
   .buttons {
     flex-direction: column;
     margin-top: 4rem;
   }
+
   .button {
     min-height: 6rem;
     margin: 2rem 0 1rem 0;
   }
+
   .two-columns {
     flex-direction: column;
     padding: 6rem 3rem;
     min-height: 0;
     align-items: center;
   }
+
   .right {
     width: 100%;
   }
+
   .right .buttons {
     flex-direction: row;
     margin: 3rem 0;
   }
+
   .right .button {
     margin: 1rem;
   }
+
   .left h1 {
     margin-bottom: 4rem;
     font-weight: 700;
@@ -228,6 +236,7 @@ footer {
   .info {
     flex-direction: column;
   }
+
   .social {
     margin-top: 1rem;
   }
@@ -245,9 +254,11 @@ footer {
     max-height: 4rem;
     margin: 1rem;
   }
+
   .orizz {
     width: 10rem;
   }
+
   .right .buttons {
     flex-direction: column;
   }
@@ -257,48 +268,64 @@ footer {
   .navbar {
     padding: 0.5rem 2rem;
   }
+
   .navbar-brand {
     font-size: 0.8rem;
     line-height: 1.4rem;
   }
+
   .nav-link {
     font-size: 0.8rem;
     padding: 0;
   }
+
   .jumbotron {
     padding: 2rem;
   }
+
   .display-3 {
     font-size: 2rem;
     margin-bottom: 3.5rem;
   }
+
   .left h1 {
       font-size: 1.5rem;
   }
+
   .right h2 {
       font-size: 1.4rem;
   }
+
   .two-columns {
     padding: 3rem 2rem;
   }
+
   .two-columns p {
     font-size: 1.2rem;
     line-height: 2rem;
   }
+
   ul {
     font-size: 1.2rem;
   }
+
   .button {
     font-size: 1.3rem;
     min-height: 5rem;
   }
+
   .buttons {
     margin-top: 2rem;
-
   }
+
   .right .buttons {
     margin: 2rem 0 0 0;
   }
+
+  img {
+    max-height: 3rem;
+  }
+
   .orizz {
     width: 8rem;
   }
